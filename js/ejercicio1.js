@@ -1,0 +1,15 @@
+let numeroUsuario=0;
+let arrayDeNumerosPares = []
+let arrayDeNumeros= []
+
+numeroUsuario= parseInt(prompt('ingrese un numero'));
+
+
+for (let index = numeroUsuario;index > (-1); index--) {
+   if (index%2 === 0) {
+        arrayDeNumerosPares.push(index)
+    }  
+        arrayDeNumeros.push(index)
+}
+console.log(arrayDeNumerosPares.length);
+
